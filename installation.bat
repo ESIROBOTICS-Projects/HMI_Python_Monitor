@@ -25,13 +25,13 @@ if errorlevel 1 (
 
 rem Step 2: Download my_script.py and requirements.txt from GitHub into the folder
 echo Downloading files from GitHub...
-curl -o "C:\HmiMonitor\HmiMonitor.py" -L "https://raw.githubusercontent.com/ESIROBOTICS-Projects/HMI_Python_Monitor/main/HmiMonitor.py"
+curl -o "C:\HmiMonitor\HmiMonitor.py" -L "https://raw.githubusercontent.com/ESIROBOTICS-Projects/HMI_Python_Monitor/main/Files/HmiMonitor.py"
 if errorlevel 1 (
     echo Failed to download HmiMonitor.py
     exit /b 1
 )
 
-curl -o "C:\HmiMonitor\requirements.txt" -L "https://raw.githubusercontent.com/ESIROBOTICS-Projects/HMI_Python_Monitor/main/requirements.txt"
+curl -o "C:\HmiMonitor\requirements.txt" -L "https://raw.githubusercontent.com/ESIROBOTICS-Projects/HMI_Python_Monitor/main/Files/requirements.txt"
 if errorlevel 1 (
     echo Failed to download requirements.txt
     exit /b 1

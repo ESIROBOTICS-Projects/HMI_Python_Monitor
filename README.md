@@ -1,5 +1,6 @@
 Usage:
 
+- Have NSSM installed and added to your PATH
 - Make sure your python is installed at "C:\" (eg. C:\Python312)
 - Download only the installation.bat to your machine
 - Open cmd on the directory of installation.bat
